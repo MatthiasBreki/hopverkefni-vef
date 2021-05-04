@@ -107,3 +107,15 @@ body{color: #FFE77AFF; background-color:#2C5F2DFF;}
 .dropdown-content a:hover {background-color: #2C5F2DFF}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #2C5F2DFF;}
+.hvitur{
+  background-color: #FFE77AFF;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: -20px;
+}
+.hvitur2{
+  background-color: #FFE77AFF;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-top: -20px;
+}
