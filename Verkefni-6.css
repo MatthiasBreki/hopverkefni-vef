@@ -79,21 +79,22 @@ body{color: #2C5F2DFF; background-color:white;}
 .bgimage{align-items: center;}
 
 .dropbtn {
-    margin-left: 950%;
-    background-color: #2C5F2DFF;
+
+   
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    padding-bottom: 20%;
-    margin-top: 20px;
+    padding-bottom: 5%;
+    
   }
   .dropdown {
     position: relative;
     display: inline-block;
   }
   .dropdown-content {
-    margin-left: 950%;
+    margin-top: 5%;
+    margin-left: -15%;
     display: none;
     position: absolute;
     background-color: #2C5F2DFF;
@@ -110,7 +111,7 @@ body{color: #2C5F2DFF; background-color:white;}
   }
 .dropdown-content a:hover {color: white; background-color: #2C5F2DFF}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {color: white;  background-color: #2C5F2DFF;}
+.dropdown:hover .dropbtn {color: white;  }
 .hvitur{
   background-color: #FFE77AFF;
   margin-left: 10%;
@@ -125,4 +126,12 @@ body{color: #2C5F2DFF; background-color:white;}
 }
 .titill{
   text-align: center;
+}
+
+.logo{
+  margin-left: -110%;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  width: 15%;
+  height: auto;
 }
