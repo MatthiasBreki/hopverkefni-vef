@@ -69,8 +69,8 @@
     
     <section class="bgimage" id="myndir">
       <div class="container">
-        <h2>Gorilla</h2>
-        <div class="col-2">
+        <h2 class="midja">Gorilla</h2>
+        <div class="col-1 midja">
           <figure>
             <img class="rammi" src="World-Gorilla-Day-IFO-INTERHOLCO-web.jpg" width="450">
             
@@ -148,60 +148,22 @@
         </article>
       </div>
     </section>
-    <section class="container col-2" id="tafla">
+    <section class="container col-1 midja" id="tafla">
       <div>
-        <h2>Tafla</h2>
-        <table>
-          <caption>Titill töflu</caption>
-          <thead>
-              <tr> 
-                  <th scope="col"></th>
-                  <th scope="col">A</th>
-                  <th scope="col">B</th>
-                  <th scope="col">C</th>
-                  <th scope="col">D</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td scope="row" data-label="AÖ"></td>
-                  <td data-label="A">Atli</td>
-                  <td data-label="B">Bára</td>
-                  <td data-label="C">Cesar</td>
-                  <td data-label="D">Dóra</td>
-              </tr>
-              <tr>
-                  <td scope="row" data-label="AÖ"></td>
-                  <td data-label="A">Atli</td>
-                  <td data-label="B">Bára</td>
-                  <td data-label="C">Cesar</td>
-                  <td data-label="D">Dóra</td>
-              </tr>
-              <tr>
-                  <td scope="row" data-label="AÖ"></td>
-                  <td data-label="A">Atli</td>
-                  <td data-label="B">Bára</td>
-                  <td data-label="C">Cesar</td>
-                  <td data-label="D">Dóra</td>
-              </tr>
-          </tbody>
-        </table>
-        <section id="takkar">
-          <h2>Hnappar</h2> 
-          <p><button>Hnappur</button></p>
-          <p><button class="button-primary">Aðalhnappurinn</button></p>
-        </section>
+        
+        
       </div>
       <div id="form">
         <div>
-          <h2>Form</h2>
+          <h1>Giveaway </h1>
+          <h4>Win an all inclusive package trip to Rwanda</h4>
           <div class="register">
           <p>&nbsp;</p>
           <form action="#" method="GET">
               <fieldset><!--nota klasa til að geta haft aðra forma með öðru útliti - sjá css-->
                   <legend>Titill formsins er í "Legend" taginu</legend>
                   <label><!--autofocus-->
-                      Nafn 
+                      Name 
                       <input type="text" 
                               name="nafn" 
                               placeholder="Full name" 
@@ -210,7 +172,7 @@
                               title="Vinsamlegast skráið nafn"> <!--ATH! input hefur ekki lokunartag -->
                   </label>
                   <label>
-                      Símanúmer
+                      Phonenumber
                       <input  type="text" 
                               name="sími" 
                               placeholder="123 4567"
@@ -219,21 +181,21 @@
                               pattern="\d{3}(?:[\-\s]?)\d{4}">
                   </label>    <!-- http://html5pattern.com/Phones "\d{3}(?:[\-\s]?)\d{4}" -->
                   <label>
-                      Tölvupóstur
+                      Email
                       <input  type="email" 
                               name="tölvupóstur" 
                               placeholder="Email address" 
                               required>
                       </label>
                   <label>
-                      Dagsetning
+                      Birthday
                       <input  type="date" 
                               name="dagsetning" 
                               required>
                   </label>
                   <br>
                   <label>
-                      Fjöldi 
+                      Number of 
                       <select name="fjöldi">
                           <option value="0" selected></option>
                           <option value="1">1</option>
@@ -242,24 +204,13 @@
                           <option value="4">4</option>
                           <option value="5">5</option>
                       </select>
-                      stykki
+                      Family members
                   </label>
                   <br><!-- til að árgerð leggist ekki upp að select -->
-                  <label for="árgerð">
-                          Árgerð:
-                          <input type="checkbox" name="árgerð 1" value="1965"> 1965, 
-                          <input type="checkbox" name="árgerð 1" value="1965"> 1975, 
-                          <input type="checkbox" name="árgerð 2" value="1985" > 1985. 
-                  </label> 
-                  <br><!-- til að Litur leggist ekki upp að Árgerð -->
-                  <label for="litur">
-                          Litur:
-                          <input type="radio" name="litur" value="Rauður"> Rauður,  
-                          <input type="radio" name="litur" value="Svartur"> Svartur. 
-                  </label>
+                  
                   <label>
                   <br>
-                      Athugasemdir <!--https://www.w3schools.com/tags/att_textarea_rows.asp-->
+                      Questions: 
                       <textarea rows="4" name="Athugasemdir"></textarea>
                   </label>
                       <input type="submit" name="submit" value="Panta">

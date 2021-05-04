@@ -136,3 +136,7 @@ body{color: #2C5F2DFF; background-color:white;}
   height: auto;
 }
 .rammi {border-style: solid;border-color:#2C5F2DFF ;}
+.midja{
+  text-align: center;
+  justify-content: center;
+}
