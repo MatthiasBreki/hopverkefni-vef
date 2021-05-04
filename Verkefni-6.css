@@ -75,7 +75,7 @@ h2{font-size:2em;line-height:1.6;margin-bottom:.5em}
 h3{font-size:1.6em;line-height:1.6}
 }
 
-body{color: #2C5F2DFF; background-color:#FFE77AFF;}
+body{color: #2C5F2DFF; background-color:white;}
 .bgimage{align-items: center;}
 
 .dropbtn {
@@ -107,3 +107,15 @@ body{color: #2C5F2DFF; background-color:#FFE77AFF;}
 .dropdown-content a:hover {background-color: #2C5F2DFF}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #2C5F2DFF;}
+.hvitur{
+  background-color: #FFE77AFF;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: -20px;
+}
+.hvitur2{
+  background-color: #FFE77AFF;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-top: -20px;
+}
